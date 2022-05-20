@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/NotSoSaneExile/Accountancy-Project/issues"
   },
-  "homepage": "https://github.com/NotSoSaneExile/Accountancy-Project#readme"
+  "homepage": "https://github.com/NotSoSaneExile/Accountancy-Project#readme",
+  "dependencies": {
+    "mongodb": "^4.6.0"
+  }
 }
