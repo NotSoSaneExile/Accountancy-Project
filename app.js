@@ -10,14 +10,14 @@ async function run() {
   try {
     await client.connect();
 
-    const database = client.db('sample_mflix');
-    const movies = database.collection('movies');
+    const database = client.db('accountancyDB');
+    const accounts = database.collection('accounts');
 
     // Query for a movie that has the title 'Back to the Future'
-    const query = { title: 'Back to the Future' };
-    const movie = await movies.findOne(query);
+    const query = { name: 'Zapasy' };
+    const account = await accounts.findOne(query);
 
-    console.log(movie);
+    console.log(account);
   } finally {
     // Ensures that the client will close when you finish/error
     await client.close();
