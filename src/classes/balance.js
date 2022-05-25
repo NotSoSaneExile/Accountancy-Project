@@ -1,4 +1,4 @@
-class Balance{
+export class Balance{
     constructor(company, date, assets, liabilities, assetsSum, liabilitiesSum){
         this.company = company;
         this.date = date;
@@ -6,5 +6,17 @@ class Balance{
         this.liabilities = liabilities;
         this.assetsSum = assetsSum;
         this.liabilitiesSum = liabilitiesSum;
+    }
+    create() {
+        
+    }
+    read() {
+
+    }
+    update() {
+
+    }
+    delete() {
+        
     }
 }

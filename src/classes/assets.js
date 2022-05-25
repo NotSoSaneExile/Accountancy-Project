@@ -4,4 +4,16 @@ export class Asset{
         this.currentYearValue = currentYearValue;
         this.lastYearValue = lastYearValue;
     }
+    create() {
+        
+    }
+    read() {
+
+    }
+    update() {
+
+    }
+    delete() {
+        
+    }
 }
