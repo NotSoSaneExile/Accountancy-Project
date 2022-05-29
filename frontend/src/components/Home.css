@@ -1,0 +1,34 @@
+.firma {
+    font-size: larger;
+}
+
+.bilans{
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.rozliczenie{
+    text-align: center;
+}   
+
+.jednostka{
+ text-align: right ;
+ font-style: italic;
+}
+
+
+
+.table{
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.glowne{
+ border: 10px;
+ text-align: center;
+}
+th{
+    border: 10px;
+ text-align: center; 
+}
