@@ -2,10 +2,34 @@
     font-size: larger;
 }
 
+input[type=text] {
+    margin-left: 0%;
+    width: 260px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: whitesmoke;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ;
+  }
+  
+
+input[type=text]:hover {
+    width: 40%;
+  }
+
 .bilans{
     font-weight: bold;
     font-size: xx-large;
     text-align: center;
+}
+
+.danejednostki{
+    margin-top: 0%;
+    margin-left: 3%;
 }
 
 .rozliczenie{
@@ -15,6 +39,7 @@
 .jednostka{
  text-align: right ;
  font-style: italic;
+ margin-right: 5%;
 }
 
 
@@ -31,4 +56,9 @@
 th{
     border: 10px;
  text-align: center; 
+}
+
+.form{
+    width: 100px;
+    background-color: whitesmoke;
 }
