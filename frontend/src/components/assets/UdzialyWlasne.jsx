@@ -1,9 +1,47 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
+import { listaA1 } from '../../apiassets/UdzialyWlasne';
+import { Table, TableCell, TableRow, TableHead, TableBody, Button } from '@mui/material';
+import { Link } from 'react-router-dom';
+const UdzialyWlasne
+ = () => {
+  const [UdzialyWlasne, setUdzialyWlasne] = useState([]);
+    useEffect(() => {
+        getUdzialyWlasne();
+    }, [])
 
-const UdzialyWlasne = () => {
+    const getUdzialyWlasne = async () =>{
+        const response = await listaA1();
+        console.log(response);
+        setUdzialyWlasne(response.data);
+    }
   return (
-    <div>UdzialyWlasne</div>
+    <Table >
+    <TableHead>
+        <TableRow >
+            <TableCell>Nazwa</TableCell>
+            <TableCell>Kwota</TableCell>
+            
+            <TableCell>
+                            <Button variant="contained" color="primary" style={{margin: '0px 20px'}} component={Link} to={`/dodajPacjenta`}>Dodaj</Button>
+                        </TableCell>
+            <TableCell></TableCell>
+        </TableRow>
+    </TableHead>
+    <TableBody>
+    {
+        UdzialyWlasne.map((data) => (
+            <TableRow>
+                <TableCell>{data.nazwa_przelewu}</TableCell>
+                <TableCell>{data.kwota}</TableCell>
+                
+                
+            </TableRow>
+        ))
+    }
+    </TableBody>
+</Table>
   )
 }
+
 
 export default UdzialyWlasne
