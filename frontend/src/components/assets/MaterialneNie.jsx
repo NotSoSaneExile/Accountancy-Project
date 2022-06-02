@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { listaA1 } from '../../apiassets/wartosci_niematerialne_i_prawne';
-
+import { Table, TableCell, TableRow, TableHead, TableBody, Button } from '@mui/material';
+import { Link } from 'react-router-dom';
 const MaterialneNie = () => {
   const [wartosci_niematerialne_i_prawne, setWartosci_niematerialne_i_prawne] = useState([]);
     useEffect(() => {
@@ -13,32 +14,33 @@ const MaterialneNie = () => {
         setWartosci_niematerialne_i_prawne(response.data);
     }
   return (
-    <table >
-    <th>
-        <tr >
-            <td>Nazwa operacji</td>
-            <td>Kwota</td>
+    <Table >
+    <TableHead>
+        <TableRow >
+            <TableCell>Nazwa</TableCell>
+            <TableCell>Kwota</TableCell>
             
-            <td>
-                            <button >Dodaj</button>
-                        </td>
-            
-        </tr>
-    </th>
-    <tbody>
+            <TableCell>
+                            <Button variant="contained" color="primary" style={{margin: '0px 20px'}} component={Link} to={`/dodajPacjenta`}>Dodaj</Button>
+                        </TableCell>
+            <TableCell></TableCell>
+        </TableRow>
+    </TableHead>
+    <TableBody>
     {
         wartosci_niematerialne_i_prawne.map((data) => (
-            <tr>
-                <td>{data.nazwa_przelewu}</td>
-                <td>{data.kwota}</td>
+            <TableRow>
+                <TableCell>{data.nazwa_przelewu}</TableCell>
+                <TableCell>{data.kwota}</TableCell>
                 
-               
-            </tr>
+                
+            </TableRow>
         ))
     }
-    </tbody>
-</table>
+    </TableBody>
+</Table>
   )
 }
+
 
 export default MaterialneNie
