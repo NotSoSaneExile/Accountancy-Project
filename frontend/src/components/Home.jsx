@@ -1,15 +1,15 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Home.css'
 
 function handleSubmit(event) {
     event.preventDefault();
   }
 
-  
-const Home = () => {
-
+class Home extends React.Component {
+    render() {
         return(
             <>
+    <div id="pdf">
         <div className='firma'>
             <input type="text" className='firmaInput'></input>
             <p className='danejednostki'>(dane jednostki)</p>
@@ -381,8 +381,10 @@ const Home = () => {
                 </tr>
             </table>
         </div>
+    </div>
         </>
         );
-        }
+    }
+}
 
 export default Home

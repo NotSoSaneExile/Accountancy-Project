@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/NotSoSaneExile/Accountancy-Project#readme",
   "dependencies": {
+    "html2canvas": "^1.4.1",
     "mongodb": "^4.6.0",
     "react-router-dom": "^6.3.0"
   }
