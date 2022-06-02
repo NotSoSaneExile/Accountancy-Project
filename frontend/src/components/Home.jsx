@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Home.css'
 
-const Home = () => (
-    <>
+const Home = () => {
+
+    
+    
+
+        return(
+            <>
         <div className='firma'>
             <input type="text" className='firmaInput'></input>
             <p className='danejednostki'>(dane jednostki)</p>
@@ -46,7 +51,7 @@ const Home = () => (
                     <td className='podkategoria'>Wartości niematerialne i prawne</td>
                     <td className='podkategoria'>
                         <form>
-                        <input type="number" className='form' placeholder="Wartość w zł."></input>
+                        <input type="number" className='form' placeholder="Wartość w zł." ></input>
                         </form>
                     </td>
                     <td className='podkategoria'>I </td>
@@ -61,7 +66,7 @@ const Home = () => (
                     <td className='podkategoria'>Rzeczowe aktywa trwałe, w tym:</td>
                     <td className='podkategoria'>
                         <form>
-                        <input type="number" className='form' placeholder="Wartość w zł."></input>
+                        <input type="number" className='form' placeholder="Wartość w zł." ></input>
                         </form>
                     </td>
                     <td className='podkategoria'>II </td>
@@ -374,7 +379,8 @@ const Home = () => (
                 </tr>
             </table>
         </div>
-    </>
-)
+        </>
+        );
+        }
 
 export default Home
