@@ -1,266 +1,247 @@
-{
-    "srodki_trwale": [
-      { 
-          "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
-          "kwota": "50000"
-      }
-    ],
-    "srodki_trwale_w_budowie": [
-        {
-            "nazwa_przelewu": "Zakup gruntow", 
-            "kwota": "100000"
+{   
+    "wartosci_niematerialne_i_prawne": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "nieruchomosci": [
-        {
-            "nazwa_przelewu": "Zakup lokalu", 
-            "kwota": "700000"
+      ],
+      "Rzeczowe_aktywa_trwale": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "dlugoterminowe_aktywa_finansowe": [
-        {
-            "nazwa_przelewu": "Zakup_akcji_XYZ", 
-            "kwota": "2500000"
+      ],
+      "srodki_trwale": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Naleznosci_krotkoterminowe_do_12_msc": [
-        {
-            "nazwa_przelewu": "Splata naleznosci od dostawcy-do12msc", 
-            "kwota": "10000"
+      ],
+      "srodki_trwale_w_budowie": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Naleznosci_krotkoterminowe_pow_12_msc": [
-        {
-            "nazwa_przelewu": "Splata naleznosci od dostawcy-pow12msc", 
-            "kwota": "10000"
+      ],
+      "Naleznosci_dlugoterminowe": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Srodki_pieniezne_w_kasie_i_na_rachunkach": [
-        {
-            "nazwa_przelewu": "Przyjecie srodkow do kasy", 
-            "kwota": "10000"
+      ],
+      "Inwestycje_dlugoterminowe": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Nadwyzka_wartosci_sprzedazy_nad_wartoscia_nominalna_udzialow": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "nieruchomosci": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "aktualizacja_wartosci_godziwej": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "dlugoterminowe_aktywa_finansowe": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Wartosci_niematerialne_i_prawne": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "Dlugoterminowe_rozliczenia_okresowe": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Naleznosci_dlugoterminowe": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "Zapasy": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Aktywa_trwale": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "Naleznosci_krotkoterminowe": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Aktywa_obrotowe": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "z_tutulu_dostaw_uslug": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Rzeczowe_aktywa_trwale": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "do_12_miesiecy": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Inwestycje_dlugoterminowe": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "powyzej_12_miesiecy": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Dlugoterminowe_rozliczenia_miedzyokresowe": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "Inwestycje_krotkoterminowe": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Zapasy": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "krotkoterminowe_aktywa_finansowe": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Naleznosci_krotko_terminowe": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "srodki_w_kasie_na_rachunkach": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "NKT_z_tytulu_dostaw": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "krotkoterminowe_rozliczenia_miedzyokresowe": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Inwestycje_krotkoterminowe": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "Nalezne_wplaty_na_kapital_podstawowy": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Krotkoterminowe_aktywa_finansowe": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "Udzialy_wlasne": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Krotkoterminowe_rozliczenia_miedzyokresowe": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+
+
+
+
+
+      "Kapital_podstawowy": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Nalezne_wplaty_na_kapital_podstawowy": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "Kapital_zapasowy": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Udzialy_wlasne": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "nadwyzka_wartosci_sprzedazy_nad_wartoscia_nominalna_udzialow": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Kapital_wlasny": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "Kapital_z_aktualizacji_wyceny": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Kapital_podstawowy": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "z_tytulu_wartosci_godzinowej": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Kapital_zapasowy": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "pozostale_kapitaly_rezerowe": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Kapital_z_aktualizacji_wyceny": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "Zysk_strata_z_lat_ubieglych": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Pozostale_kapitaly_rezerwowe": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "Zysk_strata_netto": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Zysk_Strata_zLU": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "Odpisy_zysku_w_roku": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Zysk_Strata_netto": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "Rezerwy_na_zobowiazania": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Odpisy_z_zysku_netto_wCRO": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "-10000"
+      ],
+      "Rezerwa_na_emerytury": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Zobowiazania_i_rezerwy_na_zobowiazania": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "Zobowiazania_dlugoterminowe": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Rezerwy_na_zobowiazania": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "kredyty_pozyczki": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Rezerwa_na_swiadczenia_emerytalne_i_podobne": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "Zobowiazania_krotkoterminowe": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Zobowiazania_dlugoterminowe": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "krotkie_kredyty_pozyczki": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Zobowiazania_dlugoterminowe_z_tytulu_kredytow_i_pozyczek": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "dostawy_uslugi": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Zobowiazania_krotkoterminowe": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "do_12_m": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Zobowiazania_krotkoterminowe_z_tytulu_kredytow_i_pozyczek": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "powyzej_12_m": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Zobowiazania_z_tyt_dostaw_i_uslug": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "Fundusze_specjalne": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Zobowiazania_z_tyt_dostaw_i_uslug_do12msc": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
+      ],
+      "Rozliczenia_miedzyokresowe": [
+        { 
+            "nazwa_przelewu": "Ulokowanie srodkow trwalych", 
+            "kwota": "50000"
         }
-    ],
-    "Zobowiazania_z_tyt_dostaw_i_uslug_pow12msc": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
-        }
-    ],
-    "Fundusze_specjalne": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
-        }
-    ],
-    "Rozliczenia_miedzyokresowe": [
-        {
-            "nazwa_przelewu": "XYZ", 
-            "kwota": "10000"
-        }
-    ]
+      ]
   }

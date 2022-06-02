@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function KapitalPodstawowy() {
+const KapitalPodstawowy = () => {
   return (
     <div>KapitalPodstawowy</div>
   )
 }
+
+export default KapitalPodstawowy
