@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import { jsPDF } from "jspdf";
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import MaterialneNie from "./components/assets/MaterialneNie";
 
 
 // Default export is a4 paper, portrait, using millimeters for units
@@ -19,6 +20,7 @@ function App() {
      
     <Routes>
       <Route path="/" exact="exact" element={<Home/>} />
+      <Route path="/wartosci_niematerialne_i_prawne" exact="exact" element={<MaterialneNie/>} />
       
 
     </Routes>
