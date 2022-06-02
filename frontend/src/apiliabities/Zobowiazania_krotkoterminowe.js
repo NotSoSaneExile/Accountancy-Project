@@ -10,3 +10,11 @@ export const  listaD14 = async (id) => {
 export const  dodajD14 = async (Zobowiazania_krotkoterminowe) => {
     return await axios.post(url, Zobowiazania_krotkoterminowe);
 }
+export const  edytujD14 = async (id, Zobowiazania_krotkoterminowe) => {
+    id =id || '';
+    return await axios.put(`${url}/${id}`, Zobowiazania_krotkoterminowe);
+}
+export const  usunD14 = async (id) => {
+   
+    return await axios.delete(`${url}/${id}`);
+}

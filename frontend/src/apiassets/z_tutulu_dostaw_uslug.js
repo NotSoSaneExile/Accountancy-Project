@@ -9,3 +9,11 @@ export const  listaA12 = async (id) => {
 export const  dodajA12= async (z_tutulu_dostaw_uslug) => {
     return await axios.post(url, z_tutulu_dostaw_uslug);
 }
+export const  edytujA12 = async (id, z_tutulu_dostaw_uslug) => {
+    id =id || '';
+    return await axios.put(`${url}/${id}`, z_tutulu_dostaw_uslug);
+}
+export const  usunA12 = async (id) => {
+   
+    return await axios.delete(`${url}/${id}`);
+}
