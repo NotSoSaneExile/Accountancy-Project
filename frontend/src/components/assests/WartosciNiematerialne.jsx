@@ -1,9 +1,9 @@
 import React from 'react'
 
-const WartosciNematerialne = () => {
+const WartosciNiematerialne = () => {
   return (
     <div>WartosciNematerialne</div>
   )
 }
 
-export default WartosciNematerialne
+export default WartosciNiematerialne

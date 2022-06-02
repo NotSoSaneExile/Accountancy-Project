@@ -1,9 +1,9 @@
 import React from 'react'
 
-const NależneWpat = () => {
+const NalezneWplat = () => {
   return (
     <div>NależneWpat</div>
   )
 }
 
-export default NależneWpat
+export default NalezneWplat

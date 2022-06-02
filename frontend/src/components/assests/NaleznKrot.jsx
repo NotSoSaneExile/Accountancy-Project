@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const NależnKrot = () => {
+export const NaleznKrot = () => {
   return (
     <div>NależnKrot</div>
   )

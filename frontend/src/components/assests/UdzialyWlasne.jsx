@@ -1,9 +1,9 @@
 import React from 'react'
 
-const UdzialyWlas = () => {
+const UdzialyWlasne = () => {
   return (
     <div>UdzialyWlas</div>
   )
 }
 
-export default UdzialyWlas
+export default UdzialyWlasne
